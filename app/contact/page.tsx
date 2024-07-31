@@ -1,7 +1,7 @@
 import React from "react";
 import ReadySection from "../components/ReadySection";
 
-const services: React.FC = () => {
+const contact: React.FC = () => {
   return (
     <main>
       <h1>sdffdf</h1>
@@ -10,4 +10,4 @@ const services: React.FC = () => {
   );
 };
 
-export default services;
+export default contact;
