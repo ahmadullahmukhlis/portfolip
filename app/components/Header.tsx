@@ -64,12 +64,12 @@ const Header: React.FC = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/service" className="nav-link-click">
+                      <Link href="/Serveces" className="nav-link-click">
                         Services
                       </Link>
                     </li>
                     <li>
-                      <Link href="/works" className="nav-link-click">
+                      <Link href="/work" className="nav-link-click">
                         Works
                       </Link>
                     </li>
