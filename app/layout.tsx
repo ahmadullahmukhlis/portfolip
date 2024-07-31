@@ -1,8 +1,6 @@
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import Script from "next/script";
 import "/assets/css/bootstrap.min.css";
 import "/assets/css/magnific-popup.css";
 import "/assets/css/nice-select.min.css";
@@ -13,6 +11,7 @@ import "/assets/css/style.css";
 import "/assets/css/responsive.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ScriptLoader from "./components/ScriptLoader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,32 +46,7 @@ export default function RootLayout({
         />
       </Head>
       <body className={inter.className}>
-        {/* <div className="preloader">
-          <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-            <path
-              id="preloaderSvg"
-              d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"
-            ></path>
-          </svg>
-          <div className="preloader-heading">
-            <div className="load-text">
-              <span>L</span>
-              <span>o</span>
-              <span>a</span>
-              <span>d</span>
-              <span>i</span>
-              <span>n</span>
-              <span>g</span>
-            </div>
-          </div>
-        </div> */}
-
-        <Header />
-
-        {children}
-
-        <Footer />
-
+        <ScriptLoader />
         <div className="progress-wrap cursor-pointer">
           <i className="ri-arrow-up-double-line"></i>
           <svg
@@ -87,20 +61,11 @@ export default function RootLayout({
         {/* / END SCROLL UP DESIGN AREA */}
 
         {/* Load scripts */}
-        <Script
-          src="/assets/js/jquery-3.6.0.min.js"
-          strategy="beforeInteractive"
-        />
-        <Script src="/assets/js/bootstrap.min.js" />
-        <Script src="/assets/js/appear.min.js" />
-        <Script src="/assets/js/gsap.min.js" />
-        <Script src="/assets/js/jquery.magnific-popup.min.js" />
-        <Script src="/assets/js/slick.min.js" />
-        <Script src="/assets/js/jquery.nice-select.min.js" />
-        <Script src="/assets/js/imagesloaded.pkgd.min.js" />
-        <Script src="/assets/js/isotope.pkgd.min.js" />
-        <Script src="/assets/js/wow.min.js" />
-        <Script src="/assets/js/script.js" />
+        <Header />
+
+        {children}
+
+        <Footer />
       </body>
     </html>
   );

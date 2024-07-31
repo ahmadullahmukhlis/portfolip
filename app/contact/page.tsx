@@ -1,5 +1,6 @@
 import React from "react";
 import ReadySection from "../components/ReadySection";
+import ScriptLoader from "../components/ScriptLoader";
 
 const Contact: React.FC = () => {
   return (
@@ -136,6 +137,7 @@ const Contact: React.FC = () => {
         </div>
       </section>
       <ReadySection />
+      <ScriptLoader />
     </main>
   );
 };

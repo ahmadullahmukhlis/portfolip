@@ -1,5 +1,6 @@
 import React from "react";
 import ReadySection from "../components/ReadySection";
+import ScriptLoader from "../components/ScriptLoader";
 
 const Work: React.FC = () => {
   return (
