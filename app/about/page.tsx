@@ -1,5 +1,6 @@
 import React from "react";
 import ReadySection from "../components/ReadySection";
+import ScriptLoader from "../components/ScriptLoader";
 
 const About: React.FC = () => {
   return (
@@ -260,6 +261,7 @@ const About: React.FC = () => {
       </section>
       {/* / END TESTIMONIALS DESIGN AREA */}
       <ReadySection />
+      <ScriptLoader />
     </main>
   );
 };

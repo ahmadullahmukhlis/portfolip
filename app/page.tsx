@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ReadySection from "./components/ReadySection";
+import ScriptLoader from "./components/ScriptLoader";
 
 export default function Home() {
   return (
@@ -296,6 +297,7 @@ export default function Home() {
       {/* // END PORTFOLIO DESIGN AREA */}
       {/* START CALL TO ACTION DESIGN AREA */}
       <ReadySection />
+      <ScriptLoader />
     </main>
   );
 }

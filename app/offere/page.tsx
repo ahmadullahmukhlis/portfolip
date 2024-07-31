@@ -1,5 +1,6 @@
 import React from "react";
 import ReadySection from "../components/ReadySection";
+import ScriptLoader from "../components/ScriptLoader";
 
 const Offer: React.FC = () => {
   return (
@@ -189,6 +190,7 @@ const Offer: React.FC = () => {
       </section>
       {/* / END PRICING DESIGN AREA */}
       <ReadySection />
+      <ScriptLoader />
     </main>
   );
 };

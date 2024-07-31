@@ -10,8 +10,6 @@ Version      : 1.0
   "use strict";
 
   $(document).ready(function () {
-    alert("from the js public");
-
     /*
      * ----------------------------------------------------------------------------------------
      *  EXTRA JS

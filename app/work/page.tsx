@@ -146,6 +146,7 @@ const Work: React.FC = () => {
       </section>
       {/* // END PORTFOLIO DESIGN AREA */}
       <ReadySection />
+      <ScriptLoader />
     </main>
   );
 };

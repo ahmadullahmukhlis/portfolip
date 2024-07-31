@@ -46,7 +46,7 @@ export default function RootLayout({
         />
       </Head>
       <body className={inter.className}>
-        <ScriptLoader />
+        {/* <ScriptLoader /> */}
         <div className="progress-wrap cursor-pointer">
           <i className="ri-arrow-up-double-line"></i>
           <svg
