@@ -18,8 +18,8 @@ export default function Home() {
                   width={400} // Adjust width and height according to your image
                   height={400}
                 />
-                <h2>Bentos Walker</h2>
-                <p>I am a Web Designer based in San Francisco.</p>
+                <h3 className="my-2">Ahmad Ullah Mukhlis</h3>
+                <p>I am a Full-Stack Web Designer based in Afghanistan.</p>
                 <div className="about-social text-center">
                   <ul>
                     <li>
@@ -52,14 +52,14 @@ export default function Home() {
               <div className="about-content-part wow fadeInUp delay-0-2s">
                 <p>Hello There!</p>
                 <h2>
-                  I’m Bentos Walker, a product designer crafting user-centric
-                  design with pixel-perfect precision.
+                  I’m Ahmad Ullah Mukhlis, a Full-Stack Web Developer creating
+                  web applications, ERP MIS, and mobile applications.
                 </h2>
                 <div className="address-field">
                   <ul>
                     <li>
                       <i className="ri-circle-fill"></i>Available for
-                      Freelancing
+                      freelancing and project-based work
                     </li>
                   </ul>
                 </div>
@@ -135,7 +135,7 @@ export default function Home() {
                   <p>
                     Check out some of my design projects, meticulously crafted
                     with love and dedication, each one reflecting the passion
-                    and soul I poured into every detail.
+                    and soul I pour into every detail.
                   </p>
                 </div>
               </div>
@@ -144,10 +144,11 @@ export default function Home() {
               <li data-filter="*" className="current">
                 Show All
               </li>
-              <li data-filter=".design">Design</li>
-              <li data-filter=".branding">Branding</li>
-              <li data-filter=".marketing">Marketing</li>
-              <li data-filter=".game">Game</li>
+              <li data-filter=".design">Boostrap Template</li>
+              <li data-filter=".design">Tailawind Css Template</li>
+              <li data-filter=".branding">Laravel</li>
+              <li data-filter=".marketing">React</li>
+              <li data-filter=".game">Next js</li>
             </ul>
             <div className="row project-masonry-active">
               {/* START SINGLE PORTFOLIO DESIGN AREA */}
