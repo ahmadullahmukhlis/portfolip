@@ -182,7 +182,7 @@ export default function Home() {
                       height={400}
                     />
                     <a
-                      href="https://www.youtube.com/watch?v=qZEPs3vmYB4"
+                      href="https://www.facebook.com/nasarimukhlis/"
                       className="details-btn popup-youtube"
                     >
                       <i className="ri-arrow-right-up-line"></i>
@@ -278,7 +278,7 @@ export default function Home() {
                       height={400}
                     />
                     <a
-                      href="https://www.youtube.com/watch?v=qZEPs3vmYB4"
+                      href="https://www.facebook.com/nasarimukhlis/"
                       className="details-btn popup-youtube"
                     >
                       <i className="ri-arrow-right-up-line"></i>

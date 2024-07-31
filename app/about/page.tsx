@@ -19,22 +19,32 @@ const About: React.FC = () => {
             {/* START ABOUT TEXT DESIGN AREA */}
             <div className="col-lg-8">
               <div className="about-content-part wow fadeInUp delay-0-2s">
-                <h2>I’m Bentos Walker, a product designer.</h2>
+                <h2>I’m Ahmad Ullah Mukhlis, a Full-Stack Web Develope.</h2>
                 <p>
-                  I am a San Francisco-based product designer with a focus on
-                  web design, illustration, and visual development. I have a
-                  diverse range of experience having worked across various
-                  fields and industries.
+                  I’m Ahmad Ullah Mukhlis, a Full-Stack Web Developer based in
+                  Afghanistan, dedicated to crafting exceptional digital
+                  experiences. With expertise spanning both frontend and backend
+                  technologies, I specialize in building dynamic, scalable web
+                  applications that cater to your unique needs. My approach
+                  blends creativity with technical proficiency to deliver
+                  solutions that are both functional and visually compelling.
                 </p>
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC, making it over 2000 years old. Richard McClintock,
-                  a Latin professor at Hampden-Sydney College in Virginia,
-                  looked up one of the more obscure Latin words, consectetur,
-                  from a Lorem Ipsum passage, and going through the cites of the
-                  word in classical literature, discovered the undoubtable
-                  source.
+                  My journey in web development has equipped me with a diverse
+                  skill set, from designing intuitive user interfaces to
+                  implementing robust server-side logic. I thrive on solving
+                  complex challenges and continuously exploring the latest
+                  technologies to push the boundaries of what's possible. Each
+                  project I undertake is a testament to my commitment to
+                  quality, innovation, and user-centric design
+                </p>
+                <p>
+                  Explore my portfolio to see a curated selection of my work and
+                  understand how I can bring your vision to life. Whether you’re
+                  looking to develop a new application, enhance an existing one,
+                  or embark on a collaborative project, I’m here to turn your
+                  ideas into reality. Let’s connect and make something amazing
+                  together
                 </p>
                 <div className="hero-btns">
                   <a href="/contact" className="theme-btn">
@@ -64,9 +74,11 @@ const About: React.FC = () => {
                         <i className="ri-book-line"></i>
                       </div>
                       <div className="content">
-                        <span className="years">2021 - Present</span>
-                        <h4>Themeforest Market</h4>
-                        <span className="company">Web Designer</span>
+                        <span className="years">2023 - Present</span>
+                        <h4>Baheer Group Of Companies</h4>
+                        <span className="company">
+                          Full Stack Web Developer
+                        </span>
                       </div>
                     </div>
                     {/* / END SINGLE RESUME DESIGN AREA */}
