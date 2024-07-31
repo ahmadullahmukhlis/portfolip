@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ReadySection: React.FC = () => {
@@ -19,9 +20,9 @@ const ReadySection: React.FC = () => {
                   design and deliver exceptional work.
                 </p>
                 <div className="hero-btns">
-                  <a href="/contact" className="theme-btn">
+                  <Link href="/contact" className="theme-btn">
                     Let's Talk <i className="ri-download-line"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
