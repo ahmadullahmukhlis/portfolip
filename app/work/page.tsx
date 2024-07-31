@@ -25,10 +25,11 @@ const Work: React.FC = () => {
               <li data-filter="*" className="current">
                 Show All
               </li>
-              <li data-filter=".design">Design</li>
-              <li data-filter=".branding">Branding</li>
-              <li data-filter=".marketing">Marketing</li>
-              <li data-filter=".game">Game</li>
+              <li data-filter=".design">Boostrap Template</li>
+              <li data-filter=".design">Tailawind Css Template</li>
+              <li data-filter=".branding">Laravel</li>
+              <li data-filter=".marketing">React</li>
+              <li data-filter=".game">Next js</li>
             </ul>
             <div className="row project-masonry-active">
               {/* START SINGLE PORTFOLIO DESIGN AREA */}
