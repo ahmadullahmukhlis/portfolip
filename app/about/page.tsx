@@ -12,7 +12,7 @@ const About: React.FC = () => {
             {/* START ABOUT IMAGE DESIGN AREA */}
             <div className="col-lg-4">
               <div className="about-image-part wow fadeInUp delay-0-3s">
-                <img src="/assets/images/about/jpeg" alt="About Me" />
+                <img src="/assets/images/about/profile.jpeg" alt="About Me" />
               </div>
             </div>
             {/* / END ABOUT IMAGE DESIGN AREA */}
