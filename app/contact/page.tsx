@@ -27,8 +27,8 @@ const Contact: React.FC = () => {
                     <div className="contact-icon">
                       <i className="ri-map-pin-line"></i>
                     </div>
-                    <h2>Our Office:</h2>
-                    <p>Jurain, Dhaka, Bangladesh</p>
+                    <h2>Our Address:</h2>
+                    <p>Kabul, Afghanistan</p>
                   </div>
                   {/* END CONTACT SINGLE DESIGN AREA */}
                   {/* START CONTACT SINGLE DESIGN AREA */}
@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
                       <i className="ri-phone-line"></i>
                     </div>
                     <h2>Contact Number:</h2>
-                    <p>+1234321321</p>
+                    <p>+93779404681</p>
                   </div>
                   {/* END CONTACT SINGLE DESIGN AREA */}
                   {/* START CONTACT SINGLE DESIGN AREA */}
@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
                       <i className="ri-mail-line"></i>
                     </div>
                     <h2>Email Us:</h2>
-                    <p>websitename@mail.com</p>
+                    <p>ahmadullahmukhlis2019@gmail.com</p>
                   </div>
                   {/* END CONTACT SINGLE DESIGN AREA */}
                 </div>
