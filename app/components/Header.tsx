@@ -13,7 +13,7 @@ const Header: React.FC = () => {
               <div className="logo">
                 <Link href="/">
                   <Image
-                    src="/assets/images/logo.png"
+                    src="/assets/images/logo.jpg"
                     alt="Logo"
                     title="Logo"
                     width={150}
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
                   <div className="mobile-logo">
                     <Link href="/">
                       <Image
-                        src="/assets/images/logo.png"
+                        src="/assets/images/logo.jpg"
                         alt="Logo"
                         title="Logo"
                         width={150}
