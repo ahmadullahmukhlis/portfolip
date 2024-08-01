@@ -88,8 +88,8 @@ const About: React.FC = () => {
                         <i className="ri-book-line"></i>
                       </div>
                       <div className="content">
-                        <span className="years">2021 - 2023</span>
-                        <h4>Envato Theme Developer</h4>
+                        <span className="years">2022 - 2023</span>
+                        <h4>Nangarhar University</h4>
                         <span className="company">Web Development</span>
                       </div>
                     </div>
@@ -101,9 +101,9 @@ const About: React.FC = () => {
                       </div>
                       <div className="content">
                         <span className="years">2021 - 2022</span>
-                        <h4>Marketing Expert GRP</h4>
+                        <h4>Freelance</h4>
                         <span className="company">
-                          Web Developer & Business Partner
+                          Web & Application Developer
                         </span>
                       </div>
                     </div>
@@ -123,11 +123,9 @@ const About: React.FC = () => {
                         <i className="ri-book-line"></i>
                       </div>
                       <div className="content">
-                        <span className="years">2013 - 2015</span>
+                        <span className="years">2019 - 2023</span>
                         <h4>Bachelor Degree of Information Technology</h4>
-                        <span className="company">
-                          State University Bangladesh
-                        </span>
+                        <span className="company">Nangarhar University</span>
                       </div>
                     </div>
                     {/* / END SINGLE RESUME DESIGN AREA */}
@@ -137,11 +135,9 @@ const About: React.FC = () => {
                         <i className="ri-book-line"></i>
                       </div>
                       <div className="content">
-                        <span className="years">2021 - 2024</span>
-                        <h4>Higher Secondary Education</h4>
-                        <span className="company">
-                          Premium College United VC
-                        </span>
+                        <span className="years">2016 - 2019</span>
+                        <h4>Imam Abu Hanifa Higher Secondary School</h4>
+                        <span className="company">Kohat Pakistan</span>
                       </div>
                     </div>
                     {/* / END SINGLE RESUME DESIGN AREA */}
@@ -151,9 +147,9 @@ const About: React.FC = () => {
                         <i className="ri-book-line"></i>
                       </div>
                       <div className="content">
-                        <span className="years">2021 - 2024</span>
-                        <h4>Webster College</h4>
-                        <span className="company">UI/UX Design</span>
+                        <span className="years">2007 - 2016</span>
+                        <h4>Primary school</h4>
+                        <span className="company">Kohat Pakistan </span>
                       </div>
                     </div>
                     {/* / END SINGLE RESUME DESIGN AREA */}
