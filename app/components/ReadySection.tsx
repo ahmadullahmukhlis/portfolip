@@ -12,17 +12,17 @@ const ReadySection: React.FC = () => {
             <div className="col-lg-12">
               <div className="about-content-part call-to-action-part wow fadeInUp delay-0-2s text-center">
                 <h2>
-                  Are you ready to kickstart your project with a touch of
-                  innovation?
+                  Ready to ignite your project with a spark of creativity?
                 </h2>
                 <p>
-                  Get in touch and let’s turn your vision into reality ✨. I’m
-                  available for full-time or part-time projects, ready to
-                  innovate and deliver standout web application solutions
+                  Connect with me and watch your vision come to life ✨. Whether
+                  you're looking for full-time or part-time collaboration, I'm
+                  here to innovate and provide exceptional web application
+                  solutions
                 </p>
                 <div className="hero-btns">
                   <Link href="/contact" className="theme-btn">
-                    Let's Talk <i className="ri-download-line"></i>
+                    Let’s Connect <i className="ri-download-line"></i>
                   </Link>
                 </div>
               </div>

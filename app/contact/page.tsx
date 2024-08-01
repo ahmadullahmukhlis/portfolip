@@ -136,7 +136,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </section>
-      <ReadySection />
+      {/* <ReadySection /> */}
       <ScriptLoader />
     </main>
   );
