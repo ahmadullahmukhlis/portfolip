@@ -13,7 +13,7 @@ export default function Home() {
             <div className="col-lg-4">
               <div className="about-image-part wow fadeInUp delay-0-3s">
                 <Image
-                  src="/assets/images/about/profile.png"
+                  src="/assets/images/about/profile.jpeg"
                   alt="About Me"
                   width={400} // Adjust width and height according to your image
                   height={400}
