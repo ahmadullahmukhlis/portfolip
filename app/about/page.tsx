@@ -1,6 +1,7 @@
 import React from "react";
 import ReadySection from "../components/ReadySection";
 import ScriptLoader from "../components/ScriptLoader";
+import Image from "next/image";
 
 const About: React.FC = () => {
   return (
@@ -71,7 +72,12 @@ const About: React.FC = () => {
                     {/* START SINGLE RESUME DESIGN AREA */}
                     <div className="resume-item wow fadeInUp delay-0-3s">
                       <div className="icon">
-                        <i className="ri-book-line"></i>
+                        <Image
+                          src="/assets/images/client-logos/baheer-group.jpg"
+                          alt="Partner 1"
+                          width={50}
+                          height={50}
+                        />
                       </div>
                       <div className="content">
                         <span className="years">2023 - Present</span>
