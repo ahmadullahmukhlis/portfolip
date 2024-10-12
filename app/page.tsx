@@ -84,7 +84,7 @@ export default function Home() {
                   >
                     <div className="scroller__inner">
                       <Image
-                        src="/assets/images/client-logos/partner1.png"
+                        src="/assets/images/client-logos/baheer-group.jpg"
                         alt="Partner 1"
                         width={100}
                         height={100}
