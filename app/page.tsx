@@ -136,18 +136,19 @@ export default function Home() {
             <div className="row">
               <div className="col-xl-12 col-lg-12">
                 <div className="section-title text-center wow fadeInUp delay-0-2s">
-                  <h2>Works & Projects</h2>
+                  <h2>My Work & Projects</h2>
                   <p>
-                    Check out some of my design projects, meticulously crafted
-                    with love and dedication, each one reflecting the passion
-                    and soul I pour into every detail.
+                    Explore a selection of my design projects, thoughtfully
+                    crafted with precision and care. Each project showcases my
+                    dedication, creativity, and commitment to bringing every
+                    detail to life.
                   </p>
                 </div>
               </div>
             </div>
             <ul className="project-filter filter-btns-one justify-content-left pb-15 wow fadeInUp delay-0-2s">
               <li data-filter="*" className="current">
-                Show All
+                All
               </li>
               <li data-filter=".design">Boostrap </li>
               <li data-filter=".design">Tailawind </li>
