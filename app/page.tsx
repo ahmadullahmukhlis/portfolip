@@ -64,7 +64,10 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="hero-btns">
-                  <a href="contact.html" className="theme-btn">
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1qPvj1JlWbZCizcnLzR_peWzMXED5n4Yh"
+                    className="theme-btn"
+                  >
                     Download CV <i className="ri-download-line"></i>
                   </a>
                 </div>
