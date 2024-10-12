@@ -23,10 +23,10 @@ const Work: React.FC = () => {
             </div>
             <ul className="project-filter filter-btns-one justify-content-left pb-15 wow fadeInUp delay-0-2s">
               <li data-filter="*" className="current">
-                Show All
+                All
               </li>
-              <li data-filter=".design">Boostrap Template</li>
-              <li data-filter=".design">Tailawind Css Template</li>
+              <li data-filter=".design">Boostrap </li>
+              <li data-filter=".design">Tailawind Css </li>
               <li data-filter=".branding">Laravel</li>
               <li data-filter=".marketing">React</li>
               <li data-filter=".game">Next js</li>
