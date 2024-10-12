@@ -51,15 +51,17 @@ export default function Home() {
             <div className="col-lg-8">
               <div className="about-content-part wow fadeInUp delay-0-2s">
                 <p>Hello There!</p>
-                <h2>
-                  I’m Ahmad Ullah Mukhlis, a Full-Stack Web Developer creating
-                  web applications, ERP MIS, and mobile applications.
-                </h2>
+                <h3>
+                  I'm Ahmad Ullah Mukhlis, a passionate Full-Stack Web Developer
+                  with expertise in building web applications, ERP MIS
+                  solutions, and mobile applications that deliver seamless user
+                  experiences and drive business efficiency.
+                </h3>
                 <div className="address-field">
                   <ul>
                     <li>
-                      <i className="ri-circle-fill"></i>Available for
-                      freelancing and project-based work
+                      <i className="ri-circle-fill"></i>Available for freelance
+                      projects and contract-based work.
                     </li>
                   </ul>
                 </div>
@@ -147,8 +149,8 @@ export default function Home() {
               <li data-filter="*" className="current">
                 Show All
               </li>
-              <li data-filter=".design">Boostrap Template</li>
-              <li data-filter=".design">Tailawind Css Template</li>
+              <li data-filter=".design">Boostrap </li>
+              <li data-filter=".design">Tailawind </li>
               <li data-filter=".branding">Laravel</li>
               <li data-filter=".marketing">React</li>
               <li data-filter=".game">Next js</li>
