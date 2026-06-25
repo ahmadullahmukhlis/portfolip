@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
                             name="message"
                             id="message"
                             className="form-control"
-                            rows="4"
+                           rows={4}
                             placeholder="Write Your message"
                             required
                             data-error="Please Write your Message"
