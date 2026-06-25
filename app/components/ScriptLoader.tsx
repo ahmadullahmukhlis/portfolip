@@ -1,18 +1,19 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
-import { usePathname, useSearchParams } from "next/navigation"; // 👈 Changed to support App Router
+import { useEffect, useState, useRef, Suspense } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
 
-const ScriptLoader = () => {
-  const pathname = usePathname(); // 👈 Replaced useRouter() with usePathname
-  const searchParams = useSearchParams(); // 👈 Captures URL query parameters if they change
+// 1. Move your main script loading logic to an inner component
+const ScriptLoaderInner = () => {
+  const pathname = usePathname();
+  const searchParams = useSearchParams(); // 👈 Safe to use now inside Suspense
   
   const [shouldRender, setShouldRender] = useState(false);
   const scriptRefArr = useRef<{ url: string; script: HTMLScriptElement }[]>([]);
-  const loadedScripts = useRef<Set<string>>(new Set()); // Keep track of loaded scripts
+  const loadedScripts = useRef<Set<string>>(new Set());
 
   useEffect(() => {
-    const condition = true; // Replace with your actual condition
+    const condition = true;
     setShouldRender(condition);
 
     if (condition) {
@@ -36,8 +37,7 @@ const ScriptLoader = () => {
         removeScripts();
       };
     }
-    // 👈 Triggers effect whenever the path or query parameters change
-  }, [pathname, searchParams]); 
+  }, [pathname, searchParams]);
 
   const loadScripts = async (scripts: string[]) => {
     for (const src of scripts) {
@@ -50,7 +50,6 @@ const ScriptLoader = () => {
 
   const loadScript = (src: string): Promise<void> => {
     return new Promise<void>((resolve, reject) => {
-      // Check if the script is already added
       if (document.querySelector(`script[src="${src}"]`)) {
         resolve();
         return;
@@ -72,14 +71,21 @@ const ScriptLoader = () => {
         document.body.removeChild(item.script);
       }
     });
-
     scriptRefArr.current = [];
-    loadedScripts.current.clear(); // Clear the set of loaded scripts
+    loadedScripts.current.clear();
   };
 
   if (!shouldRender) return null;
+  return null;
+};
 
-  return null; // No visible UI is rendered
+// 2. Export a wrapper that enforces the Next.js Suspense boundary requirement
+const ScriptLoader = () => {
+  return (
+    <Suspense fallback={null}>
+      <ScriptLoaderInner />
+    </Suspense>
+  );
 };
 
 export default ScriptLoader;
