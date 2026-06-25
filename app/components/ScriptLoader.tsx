@@ -1,10 +1,12 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation"; // 👈 Changed to support App Router
 
 const ScriptLoader = () => {
-  const { asPath } = useRouter(); // using asPath to get the current path
+  const pathname = usePathname(); // 👈 Replaced useRouter() with usePathname
+  const searchParams = useSearchParams(); // 👈 Captures URL query parameters if they change
+  
   const [shouldRender, setShouldRender] = useState(false);
   const scriptRefArr = useRef<{ url: string; script: HTMLScriptElement }[]>([]);
   const loadedScripts = useRef<Set<string>>(new Set()); // Keep track of loaded scripts
@@ -34,7 +36,8 @@ const ScriptLoader = () => {
         removeScripts();
       };
     }
-  }, [asPath]);
+    // 👈 Triggers effect whenever the path or query parameters change
+  }, [pathname, searchParams]); 
 
   const loadScripts = async (scripts: string[]) => {
     for (const src of scripts) {
